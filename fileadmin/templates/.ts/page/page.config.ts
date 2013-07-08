@@ -1,0 +1,33 @@
+#XHTML 5
+config.xhtml_cleaning                     = all
+config.doctype                            = html5
+ 
+#CHARSET
+config.metaCharset                        = utf-8
+config.renderCharset                      = utf-8
+ 
+#COOLURI
+[globalString = ENV:HTTP_HOST=baseURL]
+  config.baseURL                          = http://baseURL
+[ELSE]
+  config.baseURL                          = {$baseURL}
+[GLOBAL]
+config.tx_cooluri_enable                  = 1
+config.redirectOldLinksToNew              = 1
+config.jumpurl_enable                     = 1
+
+#SUCHE EINSCHALTEN
+config.index_enable                       = 1
+ 
+#EMAIL SPAMPROTECTION
+config.spamProtectEmailAddresses          = 1
+config.spamProtectEmailAddresses_atSubst  = (at)
+
+#COMMON PAGE CONFIGURATION
+page.config.admPanel                      = 0
+config {
+  intTarget                               = _self
+	compressJs                              = {$compressJs}
+	compressCss                             = {$compressCss}
+	concatenateJsAndCss                     = {$concatenateJsAndCss}
+}

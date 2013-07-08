@@ -1,0 +1,1 @@
+# <INCLUDE_TYPOSCRIPT: source="FILE: fileadmin/templates/.ts/plugins/plugin.ts">
