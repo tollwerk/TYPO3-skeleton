@@ -14,7 +14,7 @@ config.renderCharset                      = utf-8
 [GLOBAL]
 config.tx_cooluri_enable                  = 1
 config.redirectOldLinksToNew              = 1
-config.jumpurl_enable                     = 1
+config.jumpurl_enable                     = 0
 
 #SUCHE EINSCHALTEN
 config.index_enable                       = 1
