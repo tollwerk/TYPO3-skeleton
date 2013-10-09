@@ -1,5 +1,9 @@
 #FAVICON
-page.shortcutIcon								= favicon.ico
+page.headerData.600             = TEXT
+page.headerData.600.value (
+  <link rel="shortcut icon" href="{$baseURL}favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="{$baseURL}favicon.ico" type="image/x-icon" />
+)
  
 #META
 page.meta.author								= Page Author
