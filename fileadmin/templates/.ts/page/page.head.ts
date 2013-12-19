@@ -4,6 +4,21 @@ page.headerData.600.value (
   <link rel="shortcut icon" href="{$baseURL}favicon.ico" type="image/x-icon" />
   <link rel="icon" href="{$baseURL}favicon.ico" type="image/x-icon" />
 )
+
+#TOUCHICONS (@see http://iconogen.com)
+page.headerData.601                        = TEXT
+page.headerData.601.value (
+	<link rel="apple-touch-startup-image" href="startup.png" />
+	<link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png" />
+	<link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57-precomposed.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png" />
+	<link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-60x60-precomposed.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-120x120-precomposed.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-76x76-precomposed.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-152x152-precomposed.png" />
+)
  
 #META
 page.meta.author								= Page Author

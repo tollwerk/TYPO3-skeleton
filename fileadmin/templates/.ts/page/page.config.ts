@@ -12,6 +12,7 @@ config.renderCharset                      = utf-8
 [ELSE]
   config.baseURL                          = {$baseURL}
 [GLOBAL]
+config.simulateStaticDocuments						= 0
 config.tx_cooluri_enable                  = 1
 config.redirectOldLinksToNew              = 1
 config.jumpurl_enable                     = 0
