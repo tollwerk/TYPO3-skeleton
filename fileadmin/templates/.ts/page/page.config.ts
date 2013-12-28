@@ -13,8 +13,9 @@ config.renderCharset                      = utf-8
   config.baseURL                          = {$baseURL}
 [GLOBAL]
 config.simulateStaticDocuments						= 0
-config.tx_cooluri_enable                  = 1
-config.redirectOldLinksToNew              = 1
+config.tx_realurl_enable                  = 0
+config.tx_cooluri_enable                  = 0
+config.redirectOldLinksToNew              = 0
 config.jumpurl_enable                     = 0
 
 #SUCHE EINSCHALTEN
